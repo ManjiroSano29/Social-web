@@ -1,0 +1,57 @@
+.posting{
+    width: 80%;
+    height: 100vh;
+    margin-left: 20.1%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    .posting_form{
+        width: 50%;
+        margin: auto;
+        .posting_status{
+            display: flex;
+            align-items: center;
+            .posting_pro{
+                width: 60px;
+                height: 60px;
+                border-radius: 50%;
+            }
+            .posting_input{
+                font-size: 17px;
+                border: none;
+                width: 100%;
+                margin-left: 10px;
+                &:focus{
+                    outline: none;
+                }
+            }
+            .posting_emoji_icon{
+                width: 40px;
+                height: 40px;
+                cursor: pointer;
+            }
+        }
+
+        .posting_add{
+            display: flex;
+            align-items: center;
+            font-size: 20px;
+            cursor: pointer;
+            .posting_icon{
+                font-size: 40px;
+            }
+        }
+
+        .posting_button{
+            width: 100%;
+            cursor: pointer;
+            background-color: skyblue;
+            border: 1px solid skyblue;
+            font-size: 20px;
+            color: white;
+            margin-top: 10px;
+        }
+    }
+}

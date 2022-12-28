@@ -1,0 +1,31 @@
+.reset{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    .reset_container{
+        width: 45%;
+        height: 50%;
+        margin: auto;
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .reset_input{
+            font-size: 20px;
+            width: 80%;
+            padding: 16px;
+        }
+        .reset_button{
+            font-size: 20px;
+            width: 85.5%;
+            padding: 10px 0;
+            margin-top: 20px;
+            cursor: pointer;
+            background-color: lightgreen;
+            border: none;
+        }
+    }
+}

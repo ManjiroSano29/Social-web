@@ -1,0 +1,84 @@
+.profile{
+    margin-left: 20.4%;
+    width: 80%;
+    background-color: whitesmoke;
+    min-height: 100vh;
+
+    .profile_infors{
+        width: 70%;
+        height: 100%;
+        margin: auto;
+        background-color: whitesmoke;
+        .profile_infor{
+            border-bottom: 1px solid lightgray;
+            display: flex;
+            align-items: center;
+            height: 32vh;
+            width: 80%;
+            margin: auto;
+            
+            .info_pic{
+                width: 150px;
+                height: 150px;
+                border-radius: 50%;
+            }
+            
+            .info_text{
+                margin-left: 100px;
+                .info_username{
+                    .change_profile{
+                        font-weight: bold;
+                        margin-left: 30px;
+                        padding: 7px;
+                        border: 1px solid lightgray;
+                        border-radius: 5px;
+                        cursor: pointer;
+                    }
+                    .turn_message{
+                        font-weight: bold;
+                        margin-left: 30px;
+                        padding: 7px;
+                        border: 1px solid lightgray;
+                        border-radius: 5px;
+                        cursor: pointer;
+                    }
+                    .turn_follow{
+                        font-weight: bold;
+                        margin-left: 5px;
+                        padding: 7px;
+                        border: 1px solid lightgray;
+                        border-radius: 5px;
+                        cursor: pointer;
+                        background-color: skyblue;
+                        color: white;
+                        border: 1px solid skyblue;
+                    }
+                }
+            }
+
+            .info_follows{
+                font-size: 20px;
+                margin-top: 15px;
+                .info_follow{
+                    margin-left: 15px;
+
+                }
+            }
+
+            .info_person{
+                display: flex;
+                .info_birthday{
+                    display: flex;
+                    align-items: center;
+                    font-size: 20px;
+                }
+                .info_career{
+                    margin-left: 30px;
+                    display: flex;
+                    align-items: center;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}

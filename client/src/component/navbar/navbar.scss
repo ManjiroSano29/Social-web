@@ -1,0 +1,98 @@
+.navbar{
+    width: 20vw;
+    height: 100vw;
+    position: fixed;
+    border-right: 1px solid lightgray;
+    z-index: 3;
+    .navbar_logo{
+        margin-left: 20px;
+        margin-top: 40px;
+    }
+
+    .navbar_feature{
+        display: flex;
+        align-items: center;
+        margin-left: 20px;
+        cursor: pointer;
+        margin-top: 15px;
+        height: 60px;
+        width: 260px;
+        border-radius: 10px;
+        &:hover{
+            background-color: lightcyan;
+        }
+        
+        .navbar_feature_icon{
+            font-size: 40px;
+        }
+        .navbar_feature_name{
+            font-size: 25px;
+            margin-left: 15px;
+        }
+        .counter{
+            width: 5px;
+            height: 5px;
+            background-color: red;
+            border-radius: 50%;
+            color: white;
+            padding: 5px;
+            font-size: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            right: 81.2%;
+            top: 22.4%;
+        }
+        .messCount{
+            width: 5px;
+            height: 5px;
+            background-color: red;
+            border-radius: 50%;
+            color: white;
+            padding: 5px;
+            font-size: 12px;
+            display: flex;
+            align-items: center;
+            position: absolute;
+            right: 79%;
+            top: 17.3%;
+        }
+    }
+
+    .link{
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .notifications{
+        position: absolute;
+        background-color: white;
+        margin-left: 24%;
+        margin-top: -35.7%;
+        width: 134%;
+        height: 47%;
+        display: flex;
+        flex-direction: column;
+        border-left: 1px solid lightgray;
+        border-right: 1px solid lightgray;
+    }
+
+    .notification{
+        font-size: 18px;
+        margin-left: 20px;
+        display: flex;
+        align-items: center;
+        .sender_img{
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+        }
+    }
+    .nButton{
+        position: absolute;
+        margin-left: 300px;
+        margin-top: -48px;
+        cursor: pointer;
+    }
+}
